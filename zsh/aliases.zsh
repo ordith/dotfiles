@@ -35,6 +35,7 @@ alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew d
 alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias mkdirp='mkdir -p'
 alias maketermfast='sudo rm /private/var/log/asl/*.asl'
+alias tdl='tree -d -L'
 
 # git
 alias glod='git log --graph --pretty="%Cgreen%h%Creset%Cblue%d%Creset %Cred%an%Creset: %s"'
